@@ -10,7 +10,12 @@ It will be implementing various react hooks for optimizations.
 - unique key error - https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key \
   add keys when iterating over array elements - optimizes diff calc for react
 
-- wrapper components - children
+- Wrapper components - children
+
+- React.StrictMode - https://react.dev/reference/react/StrictMode
+
+- Hooks - https://react.dev/reference/react/hooks 
+- Basic hooks - useState, useEffect, useRef
 
 ### General features
 
