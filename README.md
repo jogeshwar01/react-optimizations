@@ -17,6 +17,8 @@ It will be implementing various react hooks for optimizations.
 - Hooks - https://react.dev/reference/react/hooks 
 - Basic hooks - useState, useEffect, useRef
 
+- useCallback, useMemo, useContext
+
 ### General features
 
 - User can create a Todo
