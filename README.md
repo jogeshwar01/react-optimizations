@@ -17,7 +17,10 @@ It will be implementing various react hooks for optimizations.
 - Hooks - https://react.dev/reference/react/hooks 
 - Basic hooks - useState, useEffect, useRef
 
-- useCallback, useMemo, useContext
+- useCallback, useMemo
+
+- Routing - react-router-dom
+- useNavigate, Lazy loading - Suspense API (for async component/data fetching)
 
 ### General features
 
