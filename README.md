@@ -22,6 +22,9 @@ It will be implementing various react hooks for optimizations.
 - Routing - react-router-dom
 - useNavigate, Lazy loading - Suspense API (for async component/data fetching)
 
+- prop drilling and context api - https://react.dev/learn/passing-data-deeply-with-context
+- createContext, Provider, useContext
+
 ### General features
 
 - User can create a Todo
