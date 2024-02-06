@@ -25,6 +25,8 @@ It will be implementing various react hooks for optimizations.
 - prop drilling and context api - https://react.dev/learn/passing-data-deeply-with-context
 - createContext, Provider, useContext
 
+- reducer, useReducer
+
 ### General features
 
 - User can create a Todo
