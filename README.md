@@ -27,8 +27,13 @@ It will be implementing various react hooks for optimizations.
 
 - reducer, useReducer
 
-### General features
+- return in useEffect, resource - https://overreacted.io/a-complete-guide-to-useeffect/
 
-- User can create a Todo
-- User can see their existing todos
-- User can mark the todo as done
+- Custom Hooks
+
+- Examples
+1. Data fetching hooks - SWR
+2. Browser functionality related hooks - useOnlineStatus , useWindowSize, useMousePosition
+3. Performance/Timer based - useInterval, useDebounce
+
+- axios vs fetch
