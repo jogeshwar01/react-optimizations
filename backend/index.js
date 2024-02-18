@@ -37,6 +37,29 @@ app.get("/todos", async function(req, res) {
     })
 
 })
+function generateRandomString() {
+    let result = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const charactersLength = characters.length;
+    for (let i = 0; i < 5; i++) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+}
+  
+function generateRandomStringList(length) {
+    const stringList = [];
+    for (let i = 0; i < length; i++) {
+        stringList.push(generateRandomString());
+    }
+    return stringList;
+}
+
+app.get("/words", async function(req, res) {
+    // const todos = await todo.find({});
+    const randomStringList = generateRandomStringList(50);
+    res.json(randomStringList)
+})
 
 app.put("/completed", async function(req, res) {
     const updatePayload = req.body;

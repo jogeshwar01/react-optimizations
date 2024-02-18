@@ -37,3 +37,5 @@ It will be implementing various react hooks for optimizations.
 3. Performance/Timer based - useInterval, useDebounce
 
 - axios vs fetch
+
+- Wordle - word guessing game
