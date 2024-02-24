@@ -46,3 +46,5 @@ It will be implementing various react hooks for optimizations.
 -   Tree Browser - recursive components
 
 ![image](https://github.com/jogeshwar01/react-optimizations/assets/85165953/9380cb2a-6df3-4114-8dde-d7da95397cd1)
+
+-   Get Countries/capital mock question
